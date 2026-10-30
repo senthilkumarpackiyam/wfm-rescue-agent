@@ -1,0 +1,775 @@
+{
+ "date": "2026-10-31",
+ "made_at": "07:00",
+ "method": "sarima_daily+intraday_profile",
+ "intervals": [
+  {
+   "interval_start": "08:00",
+   "queue": "payments",
+   "calls": 25.21,
+   "aht_sec": 294.7,
+   "calls_low": 23.27,
+   "calls_high": 27.3
+  },
+  {
+   "interval_start": "08:15",
+   "queue": "payments",
+   "calls": 27.2,
+   "aht_sec": 307.1,
+   "calls_low": 25.11,
+   "calls_high": 29.46
+  },
+  {
+   "interval_start": "08:30",
+   "queue": "payments",
+   "calls": 32.71,
+   "aht_sec": 299.2,
+   "calls_low": 30.2,
+   "calls_high": 35.43
+  },
+  {
+   "interval_start": "08:45",
+   "queue": "payments",
+   "calls": 39.51,
+   "aht_sec": 290.0,
+   "calls_low": 36.48,
+   "calls_high": 42.79
+  },
+  {
+   "interval_start": "09:00",
+   "queue": "payments",
+   "calls": 45.49,
+   "aht_sec": 273.3,
+   "calls_low": 42.0,
+   "calls_high": 49.27
+  },
+  {
+   "interval_start": "09:15",
+   "queue": "payments",
+   "calls": 56.51,
+   "aht_sec": 305.0,
+   "calls_low": 52.17,
+   "calls_high": 61.2
+  },
+  {
+   "interval_start": "09:30",
+   "queue": "payments",
+   "calls": 57.09,
+   "aht_sec": 294.6,
+   "calls_low": 52.71,
+   "calls_high": 61.84
+  },
+  {
+   "interval_start": "09:45",
+   "queue": "payments",
+   "calls": 62.02,
+   "aht_sec": 264.7,
+   "calls_low": 57.26,
+   "calls_high": 67.17
+  },
+  {
+   "interval_start": "10:00",
+   "queue": "payments",
+   "calls": 73.98,
+   "aht_sec": 292.7,
+   "calls_low": 68.3,
+   "calls_high": 80.12
+  },
+  {
+   "interval_start": "10:15",
+   "queue": "payments",
+   "calls": 77.73,
+   "aht_sec": 335.4,
+   "calls_low": 71.76,
+   "calls_high": 84.18
+  },
+  {
+   "interval_start": "10:30",
+   "queue": "payments",
+   "calls": 84.29,
+   "aht_sec": 304.1,
+   "calls_low": 77.82,
+   "calls_high": 91.29
+  },
+  {
+   "interval_start": "10:45",
+   "queue": "payments",
+   "calls": 88.04,
+   "aht_sec": 309.0,
+   "calls_low": 81.29,
+   "calls_high": 95.36
+  },
+  {
+   "interval_start": "11:00",
+   "queue": "payments",
+   "calls": 84.41,
+   "aht_sec": 296.4,
+   "calls_low": 77.93,
+   "calls_high": 91.42
+  },
+  {
+   "interval_start": "11:15",
+   "queue": "payments",
+   "calls": 78.55,
+   "aht_sec": 287.9,
+   "calls_low": 72.52,
+   "calls_high": 85.07
+  },
+  {
+   "interval_start": "11:30",
+   "queue": "payments",
+   "calls": 83.94,
+   "aht_sec": 302.0,
+   "calls_low": 77.5,
+   "calls_high": 90.91
+  },
+  {
+   "interval_start": "11:45",
+   "queue": "payments",
+   "calls": 81.83,
+   "aht_sec": 306.2,
+   "calls_low": 75.55,
+   "calls_high": 88.63
+  },
+  {
+   "interval_start": "12:00",
+   "queue": "payments",
+   "calls": 81.13,
+   "aht_sec": 308.5,
+   "calls_low": 74.9,
+   "calls_high": 87.87
+  },
+  {
+   "interval_start": "12:15",
+   "queue": "payments",
+   "calls": 75.38,
+   "aht_sec": 315.0,
+   "calls_low": 69.6,
+   "calls_high": 81.64
+  },
+  {
+   "interval_start": "12:30",
+   "queue": "payments",
+   "calls": 76.2,
+   "aht_sec": 295.4,
+   "calls_low": 70.35,
+   "calls_high": 82.53
+  },
+  {
+   "interval_start": "12:45",
+   "queue": "payments",
+   "calls": 72.22,
+   "aht_sec": 303.3,
+   "calls_low": 66.67,
+   "calls_high": 78.22
+  },
+  {
+   "interval_start": "13:00",
+   "queue": "payments",
+   "calls": 73.62,
+   "aht_sec": 318.9,
+   "calls_low": 67.97,
+   "calls_high": 79.74
+  },
+  {
+   "interval_start": "13:15",
+   "queue": "payments",
+   "calls": 74.33,
+   "aht_sec": 326.5,
+   "calls_low": 68.62,
+   "calls_high": 80.5
+  },
+  {
+   "interval_start": "13:30",
+   "queue": "payments",
+   "calls": 70.46,
+   "aht_sec": 301.1,
+   "calls_low": 65.05,
+   "calls_high": 76.31
+  },
+  {
+   "interval_start": "13:45",
+   "queue": "payments",
+   "calls": 72.33,
+   "aht_sec": 308.3,
+   "calls_low": 66.78,
+   "calls_high": 78.34
+  },
+  {
+   "interval_start": "14:00",
+   "queue": "payments",
+   "calls": 63.78,
+   "aht_sec": 299.5,
+   "calls_low": 58.88,
+   "calls_high": 69.07
+  },
+  {
+   "interval_start": "14:15",
+   "queue": "payments",
+   "calls": 76.55,
+   "aht_sec": 306.1,
+   "calls_low": 70.68,
+   "calls_high": 82.91
+  },
+  {
+   "interval_start": "14:30",
+   "queue": "payments",
+   "calls": 69.99,
+   "aht_sec": 317.7,
+   "calls_low": 64.62,
+   "calls_high": 75.8
+  },
+  {
+   "interval_start": "14:45",
+   "queue": "payments",
+   "calls": 68.93,
+   "aht_sec": 328.7,
+   "calls_low": 63.64,
+   "calls_high": 74.66
+  },
+  {
+   "interval_start": "15:00",
+   "queue": "payments",
+   "calls": 67.18,
+   "aht_sec": 301.9,
+   "calls_low": 62.02,
+   "calls_high": 72.76
+  },
+  {
+   "interval_start": "15:15",
+   "queue": "payments",
+   "calls": 70.46,
+   "aht_sec": 324.4,
+   "calls_low": 65.05,
+   "calls_high": 76.31
+  },
+  {
+   "interval_start": "15:30",
+   "queue": "payments",
+   "calls": 69.4,
+   "aht_sec": 341.5,
+   "calls_low": 64.08,
+   "calls_high": 75.17
+  },
+  {
+   "interval_start": "15:45",
+   "queue": "payments",
+   "calls": 68.82,
+   "aht_sec": 308.0,
+   "calls_low": 63.54,
+   "calls_high": 74.53
+  },
+  {
+   "interval_start": "16:00",
+   "queue": "payments",
+   "calls": 64.71,
+   "aht_sec": 316.2,
+   "calls_low": 59.75,
+   "calls_high": 70.09
+  },
+  {
+   "interval_start": "16:15",
+   "queue": "payments",
+   "calls": 63.19,
+   "aht_sec": 306.0,
+   "calls_low": 58.34,
+   "calls_high": 68.44
+  },
+  {
+   "interval_start": "16:30",
+   "queue": "payments",
+   "calls": 57.21,
+   "aht_sec": 310.5,
+   "calls_low": 52.82,
+   "calls_high": 61.96
+  },
+  {
+   "interval_start": "16:45",
+   "queue": "payments",
+   "calls": 55.92,
+   "aht_sec": 295.4,
+   "calls_low": 51.63,
+   "calls_high": 60.57
+  },
+  {
+   "interval_start": "17:00",
+   "queue": "payments",
+   "calls": 51.82,
+   "aht_sec": 310.9,
+   "calls_low": 47.84,
+   "calls_high": 56.12
+  },
+  {
+   "interval_start": "17:15",
+   "queue": "payments",
+   "calls": 55.69,
+   "aht_sec": 332.5,
+   "calls_low": 51.41,
+   "calls_high": 60.31
+  },
+  {
+   "interval_start": "17:30",
+   "queue": "payments",
+   "calls": 48.65,
+   "aht_sec": 290.4,
+   "calls_low": 44.92,
+   "calls_high": 52.69
+  },
+  {
+   "interval_start": "17:45",
+   "queue": "payments",
+   "calls": 45.96,
+   "aht_sec": 317.2,
+   "calls_low": 42.43,
+   "calls_high": 49.77
+  },
+  {
+   "interval_start": "18:00",
+   "queue": "payments",
+   "calls": 50.41,
+   "aht_sec": 303.3,
+   "calls_low": 46.54,
+   "calls_high": 54.6
+  },
+  {
+   "interval_start": "18:15",
+   "queue": "payments",
+   "calls": 44.43,
+   "aht_sec": 296.8,
+   "calls_low": 41.02,
+   "calls_high": 48.12
+  },
+  {
+   "interval_start": "18:30",
+   "queue": "payments",
+   "calls": 41.85,
+   "aht_sec": 310.8,
+   "calls_low": 38.64,
+   "calls_high": 45.33
+  },
+  {
+   "interval_start": "18:45",
+   "queue": "payments",
+   "calls": 37.98,
+   "aht_sec": 323.9,
+   "calls_low": 35.07,
+   "calls_high": 41.14
+  },
+  {
+   "interval_start": "19:00",
+   "queue": "payments",
+   "calls": 35.17,
+   "aht_sec": 307.6,
+   "calls_low": 32.47,
+   "calls_high": 38.09
+  },
+  {
+   "interval_start": "19:15",
+   "queue": "payments",
+   "calls": 35.99,
+   "aht_sec": 278.5,
+   "calls_low": 33.23,
+   "calls_high": 38.98
+  },
+  {
+   "interval_start": "19:30",
+   "queue": "payments",
+   "calls": 29.89,
+   "aht_sec": 310.2,
+   "calls_low": 27.6,
+   "calls_high": 32.38
+  },
+  {
+   "interval_start": "19:45",
+   "queue": "payments",
+   "calls": 26.85,
+   "aht_sec": 304.3,
+   "calls_low": 24.79,
+   "calls_high": 29.08
+  },
+  {
+   "interval_start": "08:00",
+   "queue": "general",
+   "calls": 16.81,
+   "aht_sec": 321.5,
+   "calls_low": 15.51,
+   "calls_high": 18.22
+  },
+  {
+   "interval_start": "08:15",
+   "queue": "general",
+   "calls": 20.03,
+   "aht_sec": 346.6,
+   "calls_low": 18.48,
+   "calls_high": 21.71
+  },
+  {
+   "interval_start": "08:30",
+   "queue": "general",
+   "calls": 23.03,
+   "aht_sec": 376.6,
+   "calls_low": 21.24,
+   "calls_high": 24.96
+  },
+  {
+   "interval_start": "08:45",
+   "queue": "general",
+   "calls": 27.75,
+   "aht_sec": 335.6,
+   "calls_low": 25.6,
+   "calls_high": 30.07
+  },
+  {
+   "interval_start": "09:00",
+   "queue": "general",
+   "calls": 30.74,
+   "aht_sec": 340.0,
+   "calls_low": 28.36,
+   "calls_high": 33.32
+  },
+  {
+   "interval_start": "09:15",
+   "queue": "general",
+   "calls": 36.04,
+   "aht_sec": 347.0,
+   "calls_low": 33.25,
+   "calls_high": 39.06
+  },
+  {
+   "interval_start": "09:30",
+   "queue": "general",
+   "calls": 42.94,
+   "aht_sec": 375.9,
+   "calls_low": 39.62,
+   "calls_high": 46.54
+  },
+  {
+   "interval_start": "09:45",
+   "queue": "general",
+   "calls": 50.66,
+   "aht_sec": 326.9,
+   "calls_low": 46.74,
+   "calls_high": 54.9
+  },
+  {
+   "interval_start": "10:00",
+   "queue": "general",
+   "calls": 56.87,
+   "aht_sec": 365.6,
+   "calls_low": 52.47,
+   "calls_high": 61.64
+  },
+  {
+   "interval_start": "10:15",
+   "queue": "general",
+   "calls": 54.34,
+   "aht_sec": 370.7,
+   "calls_low": 50.14,
+   "calls_high": 58.9
+  },
+  {
+   "interval_start": "10:30",
+   "queue": "general",
+   "calls": 62.06,
+   "aht_sec": 348.3,
+   "calls_low": 57.25,
+   "calls_high": 67.26
+  },
+  {
+   "interval_start": "10:45",
+   "queue": "general",
+   "calls": 59.18,
+   "aht_sec": 356.3,
+   "calls_low": 54.6,
+   "calls_high": 64.14
+  },
+  {
+   "interval_start": "11:00",
+   "queue": "general",
+   "calls": 65.62,
+   "aht_sec": 378.3,
+   "calls_low": 60.55,
+   "calls_high": 71.12
+  },
+  {
+   "interval_start": "11:15",
+   "queue": "general",
+   "calls": 60.33,
+   "aht_sec": 400.4,
+   "calls_low": 55.66,
+   "calls_high": 65.38
+  },
+  {
+   "interval_start": "11:30",
+   "queue": "general",
+   "calls": 61.25,
+   "aht_sec": 350.2,
+   "calls_low": 56.51,
+   "calls_high": 66.38
+  },
+  {
+   "interval_start": "11:45",
+   "queue": "general",
+   "calls": 61.13,
+   "aht_sec": 365.9,
+   "calls_low": 56.4,
+   "calls_high": 66.26
+  },
+  {
+   "interval_start": "12:00",
+   "queue": "general",
+   "calls": 56.3,
+   "aht_sec": 380.7,
+   "calls_low": 51.94,
+   "calls_high": 61.02
+  },
+  {
+   "interval_start": "12:15",
+   "queue": "general",
+   "calls": 58.83,
+   "aht_sec": 367.1,
+   "calls_low": 54.28,
+   "calls_high": 63.76
+  },
+  {
+   "interval_start": "12:30",
+   "queue": "general",
+   "calls": 56.64,
+   "aht_sec": 376.9,
+   "calls_low": 52.26,
+   "calls_high": 61.39
+  },
+  {
+   "interval_start": "12:45",
+   "queue": "general",
+   "calls": 56.64,
+   "aht_sec": 372.0,
+   "calls_low": 52.26,
+   "calls_high": 61.39
+  },
+  {
+   "interval_start": "13:00",
+   "queue": "general",
+   "calls": 51.81,
+   "aht_sec": 376.9,
+   "calls_low": 47.8,
+   "calls_high": 56.15
+  },
+  {
+   "interval_start": "13:15",
+   "queue": "general",
+   "calls": 52.5,
+   "aht_sec": 386.3,
+   "calls_low": 48.44,
+   "calls_high": 56.9
+  },
+  {
+   "interval_start": "13:30",
+   "queue": "general",
+   "calls": 49.85,
+   "aht_sec": 365.2,
+   "calls_low": 45.99,
+   "calls_high": 54.03
+  },
+  {
+   "interval_start": "13:45",
+   "queue": "general",
+   "calls": 52.5,
+   "aht_sec": 360.7,
+   "calls_low": 48.44,
+   "calls_high": 56.9
+  },
+  {
+   "interval_start": "14:00",
+   "queue": "general",
+   "calls": 51.81,
+   "aht_sec": 381.2,
+   "calls_low": 47.8,
+   "calls_high": 56.15
+  },
+  {
+   "interval_start": "14:15",
+   "queue": "general",
+   "calls": 48.36,
+   "aht_sec": 364.2,
+   "calls_low": 44.61,
+   "calls_high": 52.41
+  },
+  {
+   "interval_start": "14:30",
+   "queue": "general",
+   "calls": 53.42,
+   "aht_sec": 350.3,
+   "calls_low": 49.29,
+   "calls_high": 57.9
+  },
+  {
+   "interval_start": "14:45",
+   "queue": "general",
+   "calls": 54.34,
+   "aht_sec": 366.4,
+   "calls_low": 50.14,
+   "calls_high": 58.9
+  },
+  {
+   "interval_start": "15:00",
+   "queue": "general",
+   "calls": 51.0,
+   "aht_sec": 394.0,
+   "calls_low": 47.06,
+   "calls_high": 55.28
+  },
+  {
+   "interval_start": "15:15",
+   "queue": "general",
+   "calls": 51.69,
+   "aht_sec": 392.6,
+   "calls_low": 47.69,
+   "calls_high": 56.03
+  },
+  {
+   "interval_start": "15:30",
+   "queue": "general",
+   "calls": 51.92,
+   "aht_sec": 384.0,
+   "calls_low": 47.91,
+   "calls_high": 56.28
+  },
+  {
+   "interval_start": "15:45",
+   "queue": "general",
+   "calls": 46.4,
+   "aht_sec": 409.3,
+   "calls_low": 42.81,
+   "calls_high": 50.29
+  },
+  {
+   "interval_start": "16:00",
+   "queue": "general",
+   "calls": 48.47,
+   "aht_sec": 386.5,
+   "calls_low": 44.72,
+   "calls_high": 52.53
+  },
+  {
+   "interval_start": "16:15",
+   "queue": "general",
+   "calls": 46.51,
+   "aht_sec": 377.8,
+   "calls_low": 42.91,
+   "calls_high": 50.41
+  },
+  {
+   "interval_start": "16:30",
+   "queue": "general",
+   "calls": 39.84,
+   "aht_sec": 379.5,
+   "calls_low": 36.75,
+   "calls_high": 43.17
+  },
+  {
+   "interval_start": "16:45",
+   "queue": "general",
+   "calls": 38.68,
+   "aht_sec": 373.9,
+   "calls_low": 35.69,
+   "calls_high": 41.93
+  },
+  {
+   "interval_start": "17:00",
+   "queue": "general",
+   "calls": 39.26,
+   "aht_sec": 360.3,
+   "calls_low": 36.22,
+   "calls_high": 42.55
+  },
+  {
+   "interval_start": "17:15",
+   "queue": "general",
+   "calls": 37.76,
+   "aht_sec": 399.2,
+   "calls_low": 34.84,
+   "calls_high": 40.93
+  },
+  {
+   "interval_start": "17:30",
+   "queue": "general",
+   "calls": 34.42,
+   "aht_sec": 345.1,
+   "calls_low": 31.76,
+   "calls_high": 37.31
+  },
+  {
+   "interval_start": "17:45",
+   "queue": "general",
+   "calls": 34.88,
+   "aht_sec": 373.2,
+   "calls_low": 32.19,
+   "calls_high": 37.81
+  },
+  {
+   "interval_start": "18:00",
+   "queue": "general",
+   "calls": 35.0,
+   "aht_sec": 337.9,
+   "calls_low": 32.29,
+   "calls_high": 37.93
+  },
+  {
+   "interval_start": "18:15",
+   "queue": "general",
+   "calls": 34.65,
+   "aht_sec": 378.1,
+   "calls_low": 31.97,
+   "calls_high": 37.56
+  },
+  {
+   "interval_start": "18:30",
+   "queue": "general",
+   "calls": 32.58,
+   "aht_sec": 336.4,
+   "calls_low": 30.06,
+   "calls_high": 35.31
+  },
+  {
+   "interval_start": "18:45",
+   "queue": "general",
+   "calls": 27.06,
+   "aht_sec": 372.5,
+   "calls_low": 24.96,
+   "calls_high": 29.32
+  },
+  {
+   "interval_start": "19:00",
+   "queue": "general",
+   "calls": 22.45,
+   "aht_sec": 362.2,
+   "calls_low": 20.71,
+   "calls_high": 24.33
+  },
+  {
+   "interval_start": "19:15",
+   "queue": "general",
+   "calls": 25.44,
+   "aht_sec": 358.1,
+   "calls_low": 23.48,
+   "calls_high": 27.58
+  },
+  {
+   "interval_start": "19:30",
+   "queue": "general",
+   "calls": 22.91,
+   "aht_sec": 365.7,
+   "calls_low": 21.14,
+   "calls_high": 24.83
+  },
+  {
+   "interval_start": "19:45",
+   "queue": "general",
+   "calls": 21.76,
+   "aht_sec": 384.0,
+   "calls_low": 20.08,
+   "calls_high": 23.58
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+# Light theme projects best in a bright room and matches the chart palette.
+[theme]
+base = "light"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"  # hide developer controls (Deploy, rerun) during the demo

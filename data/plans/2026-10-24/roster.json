@@ -1,0 +1,2645 @@
+{
+ "date": "2026-10-24",
+ "agents": [
+  {
+   "id": "PAY-001",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-004",
+     "start": "10:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-002",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-013",
+     "start": "08:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-003",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-004",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "09:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-005",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-006",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-007",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-008",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:15",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-009",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-010",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-011",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:15",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-009",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-012",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-013",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-014",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-015",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "11:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:45",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-016",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "11:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-017",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:45",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-018",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-019",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "13:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COMP-003",
+     "start": "09:30",
+     "duration_min": 60,
+     "kind": "compliance_training",
+     "mandatory": true
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-020",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "13:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-021",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:15",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-022",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-023",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-005",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-024",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-010",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-025",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-026",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-027",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-028",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-029",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-030",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-031",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-032",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "11:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-011",
+     "start": "15:45",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-033",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-012",
+     "start": "16:15",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-034",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "11:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-035",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "10:30",
+   "shift_end": "19:00",
+   "breaks": [
+    {
+     "start": "12:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-036",
+   "primary_queue": "payments",
+   "skills": [
+    "payments",
+    "general"
+   ],
+   "shift_start": "10:30",
+   "shift_end": "19:00",
+   "breaks": [
+    {
+     "start": "12:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-037",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "11:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "13:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-038",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:00",
+   "shift_end": "19:30",
+   "breaks": [
+    {
+     "start": "16:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-008",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-039",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:00",
+   "shift_end": "19:30",
+   "breaks": [
+    {
+     "start": "16:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-040",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-041",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-042",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-043",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COMP-001",
+     "start": "16:00",
+     "duration_min": 60,
+     "kind": "compliance_training",
+     "mandatory": true
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-044",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-045",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-046",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-006",
+     "start": "16:00",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-047",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-007",
+     "start": "16:00",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-048",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-049",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COMP-002",
+     "start": "16:00",
+     "duration_min": 60,
+     "kind": "compliance_training",
+     "mandatory": true
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-050",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "PAY-051",
+   "primary_queue": "payments",
+   "skills": [
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-001",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-002",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "10:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COMP-015",
+     "start": "08:30",
+     "duration_min": 60,
+     "kind": "compliance_training",
+     "mandatory": true
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-003",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "12:30",
+   "breaks": [
+    {
+     "start": "09:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-004",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-005",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-006",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-007",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-008",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-020",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-009",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COMP-014",
+     "start": "08:30",
+     "duration_min": 60,
+     "kind": "compliance_training",
+     "mandatory": true
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-010",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "10:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-011",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:00",
+   "shift_end": "16:30",
+   "breaks": [
+    {
+     "start": "09:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "11:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-019",
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-012",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "13:00",
+   "breaks": [
+    {
+     "start": "10:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-013",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-014",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-018",
+     "start": "15:45",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-015",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-016",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "08:30",
+   "shift_end": "17:00",
+   "breaks": [
+    {
+     "start": "10:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "12:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-017",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-018",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "11:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-019",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:00",
+   "shift_end": "17:30",
+   "breaks": [
+    {
+     "start": "10:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-021",
+     "start": "16:15",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-020",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-021",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-022",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:15",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-023",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-024",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-017",
+     "start": "15:45",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-025",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "11:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "13:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-026",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "09:30",
+   "shift_end": "18:00",
+   "breaks": [
+    {
+     "start": "12:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "15:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-023",
+     "start": "16:00",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-027",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-028",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-029",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "11:45",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-030",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:00",
+   "shift_end": "18:30",
+   "breaks": [
+    {
+     "start": "12:15",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "14:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-031",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:30",
+   "shift_end": "19:00",
+   "breaks": [
+    {
+     "start": "13:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-032",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "10:30",
+   "shift_end": "19:00",
+   "breaks": [
+    {
+     "start": "12:30",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:00",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "16:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-033",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "11:00",
+   "shift_end": "19:30",
+   "breaks": [
+    {
+     "start": "13:00",
+     "duration_min": 15,
+     "kind": "break"
+    },
+    {
+     "start": "15:30",
+     "duration_min": 30,
+     "kind": "lunch"
+    },
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-034",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-035",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-022",
+     "start": "16:15",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-036",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-016",
+     "start": "16:00",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-037",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-038",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-039",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-040",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-041",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-042",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:00",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "COACH-024",
+     "start": "16:30",
+     "duration_min": 30,
+     "kind": "coaching",
+     "mandatory": false
+    }
+   ],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-043",
+   "primary_queue": "general",
+   "skills": [
+    "general",
+    "payments"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:30",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-044",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:15",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  },
+  {
+   "id": "GEN-045",
+   "primary_queue": "general",
+   "skills": [
+    "general"
+   ],
+   "shift_start": "15:30",
+   "shift_end": "20:00",
+   "breaks": [
+    {
+     "start": "17:45",
+     "duration_min": 15,
+     "kind": "break"
+    }
+   ],
+   "sessions": [],
+   "overtime_eligible": true,
+   "overtime_acceptance_prob": 0.4
+  }
+ ]
+}

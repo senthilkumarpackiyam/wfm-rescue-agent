@@ -1,0 +1,16 @@
+{
+  "train_end": "2026-08-31",
+  "test_end": "2026-09-30",
+  "queues": {
+    "payments": {
+      "daily_mape_pct": 2.92,
+      "interval_wape_pct": 10.28,
+      "pi80_coverage_pct": 93.3
+    },
+    "general": {
+      "daily_mape_pct": 4.47,
+      "interval_wape_pct": 12.14,
+      "pi80_coverage_pct": 80.0
+    }
+  }
+}

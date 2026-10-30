@@ -1,0 +1,74 @@
+# The fictional contact centre every component simulates, forecasts and plans for.
+# Single source of truth: simulator, forecaster, agent and eval all read this file.
+
+name: "Demo Bank Contact Centre (fictional)"
+currency: INR
+open_time: "08:00"
+close_time: "20:00"
+interval_minutes: 15          # forecasting / reporting grain; agent loop also runs every 15 sim-minutes
+
+service_level:
+  target_pct: 80              # 80% of calls answered ...
+  threshold_seconds: 20       # ... within 20 seconds
+
+queues:
+  payments:
+    label: "Payments & UPI"
+    weekday_daily_volume: 3200        # mean calls on a Wednesday at the start of history
+    aht_seconds: 300                  # mean handle time
+    aht_cv: 0.95                      # spread of individual handle times (real calls are long-tailed)
+    mean_patience_seconds: 180        # how long callers wait before hanging up (Erlang A "theta")
+    reason_mix:                       # IVR reason-code share on a normal day
+      upi_payment_failed: 0.18
+      card_declined: 0.14
+      refund_status: 0.20
+      payment_status_enquiry: 0.26
+      fraud_report: 0.07
+      other_payments: 0.15
+  general:
+    label: "Accounts & General"
+    weekday_daily_volume: 2400
+    aht_seconds: 360
+    aht_cv: 0.90
+    mean_patience_seconds: 240
+    reason_mix:
+      balance_enquiry: 0.22
+      account_update: 0.20
+      new_offer_enquiry: 0.06
+      loan_enquiry: 0.17
+      login_issue: 0.15
+      other_general: 0.20
+
+demand_model:
+  # Day-of-week multipliers (Mon=0 ... Sun=6). Centre is open 7 days.
+  day_of_week: [1.15, 1.05, 1.00, 0.98, 1.02, 0.78, 0.55]
+  annual_growth_pct: 6.0              # slow upward trend
+  annual_seasonality_pct: 4.0         # gentle yearly wave (peaks in Q4)
+  daily_noise_cv: 0.05                # day-to-day randomness a forecast cannot predict
+  aht_daily_noise_cv: 0.03
+  # Intraday shape: sum of bumps (centre hour, width in hours, weight).
+  intraday_bumps:
+    - [11.0, 1.6, 1.00]               # late-morning peak
+    - [15.0, 1.8, 0.80]               # mid-afternoon peak
+    - [18.5, 1.5, 0.35]               # after-work shoulder
+
+staffing:
+  shrinkage_pct: 30                   # breaks, lunch, coaching, expected absence built into the morning plan
+  normal_absence_pct: 4               # ordinary daily sick calls the plan already allows for
+  # Erlang A treats each queue alone and ignores cross-skilled agents floating between them,
+  # so it overstates need. The roster is planned to this Erlang target, calibrated so that
+  # simulated normal days land around the real 80/20 promise (see docs/calibration.md).
+  planning_sl_target_pct: 65         # calibrated on 31 normal days: mean 91%, worst day 80%
+  cross_skilled_pct: 25               # share of agents who can take both queues
+  agent_hourly_cost_inr: 180
+  overtime_multiplier: 2.0            # statutory double rate for overtime hours
+  full_time_shift_minutes: 510        # 8.5 h: two 15-min breaks + 30-min lunch
+  part_time_shift_minutes: 270        # 4.5 h: one 15-min break
+  coaching_share: 0.20                # share of agents with a 30-min coaching session today
+  compliance_share: 0.05              # share with a 60-min mandatory compliance training
+  roster_seed: 7
+
+history:
+  start_date: "2025-01-01"
+  end_date: "2026-09-30"              # forecasts are made for days after this
+  seed: 20250101

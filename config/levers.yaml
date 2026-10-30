@@ -1,0 +1,62 @@
+# Lever catalogue: everything the agent may propose to fix a bad day.
+# Each lever has a cost, a delay before it takes effect, and a hard limit.
+# Limits here are enforced in code (never by the LLM); the policy documents for RAG
+# (Phase 3) explain the same rules in prose and must stay consistent with this file.
+
+delay_breaks:
+  label: "Delay or move breaks"
+  cost_inr: 0
+  delay_minutes: 0
+  limits:
+    max_delay_minutes: 45             # a break may slip at most 45 min
+    max_continuous_work_hours: 5      # labour rule: rest interval at least every 5 hours
+    lunch_not_movable: false
+
+cancel_coaching:
+  label: "Cancel coaching or training"
+  cost_inr_per_session_hour: 150      # deferred development value, booked as a soft cost
+  delay_minutes: 0
+  limits:
+    mandatory_training_cancellable: false   # compliance training can never be cancelled
+
+offer_overtime:
+  label: "Voluntary overtime"
+  cost_inr_per_hour: 360              # agent_hourly_cost x overtime_multiplier
+  delay_minutes: 30                   # time for an agent to accept and log in
+  limits:
+    acceptance_rate: 0.40             # expected share of offered agents who say yes
+    max_overtime_hours_per_agent: 2
+    max_daily_hours_per_agent: 10
+    daily_budget_inr: 15000
+
+move_cross_skilled:
+  label: "Move cross-skilled agents"
+  cost_inr: 0
+  delay_minutes: 0
+  limits:
+    max_share_of_donor_queue: 0.30    # never take more than 30% of the donor queue
+    donor_min_service_level_pct: 70   # donor queue must still be predicted at >= 70%
+
+ivr_callback:
+  label: "IVR message or callback offer"
+  cost_inr: 0
+  delay_minutes: 0
+  limits:
+    callback_min_predicted_wait_seconds: 120   # only offer callbacks when the wait is long
+    callback_acceptance_rate: 0.35
+    outage_message_deflection_max: 0.25        # a known-issue message stops at most 25% of related calls
+  effects:                                     # how the simulator models the lever (not limits)
+    outage_message_deflection: 0.20            # share of matching-reason callers who hang up satisfied
+    cx_impact: "mild"
+
+chat_deflection:
+  label: "Push to chat or self-service"
+  cost_inr_per_contact: 12
+  delay_minutes: 0
+  limits:
+    max_deflection_share: 0.20        # at most 20% of eligible calls move to chat
+    eligible_reasons:
+      - payment_status_enquiry
+      - refund_status
+      - balance_enquiry
+      - new_offer_enquiry
