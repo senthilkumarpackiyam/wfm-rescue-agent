@@ -117,7 +117,7 @@ Claude spend so far: about US$2.90 (two full 31-day runs plus tests).
 - [x] Provide `ANTHROPIC_API_KEY` (done 2026-10-29).
 - [x] Add Anthropic credit and choose a cost setting (done 2026-10-30: option A, Opus 5.5 throughout).
 - [ ] Choose tracing: Langfuse or LangSmith (both need a free account), or local JSONL logs only.
-- [ ] Optional: turn the folder into a git repository so each phase is a saved checkpoint.
+- [x] Put the project on GitHub (2026-10-30, public: https://github.com/senthilkumarpackiyam/wfm-rescue-agent).
 - [ ] Team: grade the 20 recommendations in `docs/eval/label_sheet.csv` (column `your_overall_score_1_to_5`, 1-5), then run `uv run python scripts/judge_explanations.py --agreement`.
 - [x] Decide whether to apply the failure-case fix before submission (2026-10-30: ship as is; the fix is documented in [failure_case.md](failure_case.md)).
 - [ ] Fill in `[team names]` and `[date]` on deck slides 1 and 8, then share the deck (it is private).
