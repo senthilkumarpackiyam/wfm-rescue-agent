@@ -59,7 +59,7 @@ offline-check:
 rehearse:
 	uv run --with playwright python scripts/rehearse.py --runs 3
 
-# Re-record the captioned backup video to media/demo_backup.mp4 (free).
+# Re-record the backup video (captions + narration in the Mac's built-in voice) to media/demo_backup.mp4 (free).
 video:
 	uv run --with playwright python -m playwright install ffmpeg
 	uv run --with playwright --with imageio-ffmpeg python scripts/rehearse.py --video
@@ -68,7 +68,7 @@ video:
 package:
 	mkdir -p dist
 	rm -f dist/wfm-rescue-agent.zip
-	zip -qr dist/wfm-rescue-agent.zip . -x '.env' '.venv/*' 'dist/*' 'runs/*' '*/__pycache__/*' '.pytest_cache/*' '*.DS_Store' 'media/_recording/*'
+	zip -qr dist/wfm-rescue-agent.zip . -x '.env' '.git/*' '.venv/*' 'dist/*' 'runs/*' '*/__pycache__/*' '.pytest_cache/*' '*.DS_Store' 'media/_recording/*'
 	@echo "dist/wfm-rescue-agent.zip: $$(du -h dist/wfm-rescue-agent.zip | cut -f1)"
 
 clean:

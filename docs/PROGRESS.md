@@ -108,7 +108,7 @@ Claude spend so far: about US$2.90 (two full 31-day runs plus tests).
 | Offline proof | `make offline-check`: removes the key, blocks any Anthropic client, then plays the pitch path and all 31 picker days from saved answers. All pass, with 0 live calls | Proves the cached-response mode the plan asks for, and that the "crowd moment" works for any day |
 | Rehearsals | `make rehearse`: three automated runs in Chrome, all OK. Machine time is about 1 min 50 s (play to recommendation 55–56 s, re-plan 12 s, run to end 37 s with 3 approvals) | About 2 minutes of the 3 min 45 s demo slot is left for talking |
 | Dashboard fixes from rehearsal | The trace no longer blinks on the 1-second refresh; both sides' charts stay aligned when the agent side shows delta badges | Found by frame-by-frame checks of the recording |
-| Backup video | `media/demo_backup.mp4`: 1920×1080, 3 min 6 s, captioned, 8.8 MB, recorded with Playwright in installed Chrome | The plan's safety net if the live demo fails |
+| Backup video | `media/demo_backup.mp4`: 1920×1080, 3 min 19 s, captions plus a spoken narration (macOS voice “Aman”, Indian English, via `say`; change with `--voice`), 11 MB, recorded with Playwright in installed Chrome | The plan's safety net if the live demo fails |
 | Submission | `make package` builds `dist/wfm-rescue-agent.zip` (never `.env` or `.venv`); the presenter script is in `docs/pitch_script.md` | One file to send |
 | Cost | Phase 7 used US$0 of Claude; the project total stays US$36.70 | Everything ran from saved answers |
 

@@ -33,7 +33,7 @@ states: `http://localhost:8501/?scenario=OUT-01&start=09:45&mode=cached`.
 |---|---|
 | `make offline-check` | Removes the API key and blocks any Claude connection, then plays the pitch path and every day in the picker from saved answers (about 2 min) |
 | `make rehearse` | Three timed rehearsals of the pitch path in Chrome |
-| `make video` | Re-records the captioned backup video, `media/demo_backup.mp4` |
+| `make video` | Re-records the backup video with captions and a spoken narration (the Mac's built-in voice, free), `media/demo_backup.mp4` |
 | `make package` | Builds the submission zip in `dist/`, without `.env` or `.venv` |
 
 The presenter's script, with timings and what to do if something fails, is in

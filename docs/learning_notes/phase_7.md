@@ -14,7 +14,7 @@ power off, a rehearsal, and a recording in case the band does not turn up.
 | **Presenter script** | Second-by-second: what is on screen, what to click, what to say, and what to do if something breaks | `docs/pitch_script.md` |
 | **Offline proof** | The demo was run with the API key removed and any connection to Claude blocked. Every disruption in the dropdown still finished. | `make offline-check` |
 | **Rehearsals ×3** | A robot clicked through the exact pitch path in Chrome three times and timed every step | `make rehearse` |
-| **Backup video** | A 3-minute captioned recording of the demo, playable anywhere | `media/demo_backup.mp4` |
+| **Backup video** | A 3-minute recording of the demo with captions and a spoken narration, playable anywhere | `media/demo_backup.mp4` |
 | **Submission zip** | Code, data, saved Claude answers, documents and the video, but never your API key | `make package` → `dist/` |
 
 ## How the six minutes are spent
@@ -47,8 +47,8 @@ Both are fixed, and the video was re-recorded after the fixes.
 
 1. **Offline mode** (the default for the pitch): no internet and no API key needed. Every
    disruption in the dropdown works, so a panel member can pick one live.
-2. **The backup video**: if the laptop, the projector or the dashboard fails, play it and talk
-   over it.
+2. **The backup video**: if the laptop, the projector or the dashboard fails, play it. It
+   narrates itself; mute it if you would rather talk over it.
 3. **Slide 5** shows the demo's results as a slide, if even the video cannot play.
 
 ## What it cost

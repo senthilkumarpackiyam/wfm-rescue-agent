@@ -42,7 +42,7 @@ the live demo if the demo cannot run.
 
 | Problem | What to do |
 |---|---|
-| The dashboard will not start or freezes | Switch to `media/demo_backup.mp4` and talk over it. It has captions and runs 3 min 6 s, so skip ahead if short of time. |
+| The dashboard will not start or freezes | Switch to `media/demo_backup.mp4`. It has captions and a spoken narration (mute it if you would rather talk over it) and runs 3 min 19 s, so skip ahead if short of time. |
 | No internet or no API key | Nothing to do: offline mode never calls Claude. |
 | A red "AI assistant unavailable" banner | You are not in offline mode, or you typed a different rejection. Reload the bookmark and type the reason exactly as written. |
 | The panel picks another disruption ("crowd moment") | Choose it in the sidebar, keep offline mode, click **Load disruption**, then **⏭ Next agent step**, and approve each card. Every day in the list replays offline. Only a *different* rejection text needs live Claude, through the "Saved answers, live if missing" mode, which takes about a minute and costs about US$0.20–0.50. |
